@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>food webviews</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <script type="text/javascript">
+        window.onload = function () {
+            var x = document.getElementsByName('nutri').values
+            console.log(x)
+            var chart = new CanvasJS.Chart("chartContainer",
+            {
+                title:{
+                    text: "nutrients"
+                },
+                legend: {
+                    maxWidth: 350,
+                    itemWidth: 120
+                },
+                data: [
+                {
+                    type: "pie",
+                    showInLegend: true,
+                    legendText: "{indexLabel}",
+                    dataPoints: [
+                        { y: x[0], indexLabel: "PlayStation 3" },
+                        { y: x[1], indexLabel: "Wii" },
+                        { y: x[2], indexLabel: "Xbox 360" },
+                        { y: x[3], indexLabel: "Nintendo DS"}
+                    ]
+                }
+                ]
+            });
+            chart.render();
+        }
+        </script>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        
+</head>
+<body>
+<div class="heading">
+    <h1>Your Food Nutriton Log</h1>
+</div>
+
+<div class="container">
+<table class = "Table" >
+        <tr>
+                <!-- <th>Food </th> -->
+                <th>Food name</th> 
+                <!-- <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Carbohydrate</th>
+                <th>fats</th>
+                <th>proteins</th> -->
+        </tr>
+{% for food in foods %}
+    <tr>
+        
+        <th>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                        <div class="flip-card-front">
+            <img src="{{ food.img }}" alt="food img" height="100" width="100"> {{ (food.name).split(':')[0] }} {{ (food.name).split(':')[1] }} 
+               </div>
+               <div class="flip-card-back">
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                  </div>
+               </div>
+        </div>   
+        </th>
+        <!-- <th>{{ (food.name).split(':')[0] }}</th>
+        <th>{{ (food.name).split(':')[1] }}</th>
+       -->
+        {% for f in (food.detail).split(' ') %}
+        <input type="text" name = "nutri" id="nutri" value = "{{ f.split(':')[1] }}" >
+        {% endfor %} 
+    </tr>
+{% endfor %}
+</table>
+</div>
+
+</body>
+</html>
+

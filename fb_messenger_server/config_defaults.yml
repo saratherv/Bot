@@ -1,0 +1,5 @@
+VERIFY_TOKEN: 'rajeev'
+SERVER_URL: "https://2ac1ac31.ngrok.io"
+NUTRITION_SERVER_URL: "http://app.hopscotchhealth.co"
+TASK_SERVER_URL: "http://analyst.hopscotchhealth.co"
+API_KEY: "SuFyTk0Da48-fNLVzSiz3ZP8Cmpps5LlKvWJ4ioD1F"

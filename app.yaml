@@ -1,0 +1,9 @@
+runtime: python37
+
+# [START handlers]
+handlers:
+- url: /static
+  static_dir: fb_messenger_server/static
+- url: /.*
+  script: auto
+# [END handlers]

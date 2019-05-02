@@ -1,0 +1,192 @@
+.-Dashboard {
+    width: 1080px;
+    height: 1704px;
+  }
+  .BG {
+    width: 1080px;
+    height: 1702px;
+    background-color: blanchedalmond;
+  }
+
+
+.Your-Food-Log-Today {
+  width: 426px;
+  height: 36px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.Base-Bar {
+    width: 877px;
+    height: 21px;
+    background-color: #ebebeb;
+  }
+
+  .Rectangle-2 {
+    width: 430px;
+    height: 21px;
+    background-color: #5054c0;
+  }
+
+
+
+
+
+
+
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 40%;
+  }
+ .right {
+     width: 60%
+ }
+
+ .columninner {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .Rectangle-Copy-2 {
+    width: 37.3px;
+    height: 6.2px;
+    border-radius: 3px;
+    background-color: #dedede;
+  }
+
+  .Rectangle-blue {
+    width: 37.3px;
+    height: 6.2px;
+    border-radius: 3px;
+    background-color: #4a90e2;
+  }
+  .Rectangle-red {
+    width: 37.3px;
+  height: 6.2px;
+  border-radius: 3px;
+  background-color: #f03914;
+  }
+  .Rectangle-yellow {
+    width: 37.3px;
+    height: 6.2px;
+    border-radius: 3px;
+    background-color: #ffb900;
+  }
+  
+  .Rectangle {
+    width: 895px;
+    height: 276px;
+    border-radius: 10px;
+    box-shadow: 3.3px 3.7px 12.6px 6.4px rgba(146, 160, 184, 0.1);
+    background-color: #ffffff;
+  }
+
+  .grilled-lemon-chicken-feta-rice-ck {
+    width: 275px;
+    height: 277px;
+  }
+  .Chicken-Breast-9oz {
+    width: 493px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .Chicken-Breast-9oz .text-style-1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+.num {
+    width: 81px;
+    height: 29px;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.57;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .KCal {
+    width: 81px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f06f14;
+  }
+
+  .Carbs {
+    width: 81px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #4a90e2;
+  }
+  
+  .Stroke-5 {
+    width: 11.2px;
+    height: 10.3px;
+    
+  }
+
+  .Proteins {
+    width: 104px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #f03914;
+  }
+
+  .Fat {
+    width: 57px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #ffb900;
+  }

@@ -1,0 +1,276 @@
+.card {
+    margin-left: 85px !important;
+    width: 895px !important;
+    box-shadow: 3.3px 3.7px 12.6px 6.4px rgba(146, 160, 184, 0.1) !important;
+    background-color: #ffffff;
+   
+  }
+.row-card {
+    margin-top: 133.8px !important;
+    
+}
+.other-card{
+    margin-top: 55px !important;
+}
+
+.Your-Food-Log-Today {
+    width: 426px;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-top: 100px;
+    margin-left: 99px;
+  }
+  .BG {
+    width: 1080px;
+    height: 1702px;
+    background-color: rgb(248, 247, 249);
+  }
+
+  .Base-Bar {
+    width: 877px;
+    height: 21px;
+    background-color: #ebebeb;
+    margin-left: 99px;
+    margin-top: 72px;
+  }
+  .Rectangle-2 {
+    width: 430px;
+    height: 21px;
+    background-color: #5054c0;
+
+  }
+  .-complete {
+    width: 304.4px;
+    height: 49.7px;
+    font-family: Roboto;
+    font-size: 35.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #000000;
+    margin-left: 99px;
+    margin-top: 24px;
+  }
+  .KCal {
+    width: 304.4px;
+    height: 49.7px;
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+    margin-top: 24px;
+    margin-left: 578px;
+  }
+
+  .text-style-1 {
+    font-size: 44.2px;
+    font-weight: 500;
+  }
+
+  .-Carbs {
+    width: 151px;
+    height: 38px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .Stroke-152 {
+    width: 12.4px;
+    height: 10.8px;
+   
+  }
+  .position_carbs{
+    margin-left: 775px;
+    margin-top: 97.5px;
+  }
+.position_prot {
+    margin-left: 118px;
+    margin-top: 50px;
+}
+.position_fat {
+    margin-top: 227px;
+    margin-left: 805px;
+}
+
+  .-Protein {
+    width: 170px;
+    height: 38px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .-Fats {
+    width: 129px;
+    height: 38px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .grilled-lemon-chicken-feta-rice-ck {
+    width: 375px !important;
+    height: 277px !important;
+  }
+  
+
+.card-item {
+    height: 276px !important;
+    width: 895px !important;
+    
+}
+
+.Chicken-Breast-9oz {
+    width: 493px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    color: #000000 !important;
+    margin-top: 43px;
+    margin-left: 49px;
+  }
+
+  .Chicken-Breast-9oz .text-style-1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .kcal_count{
+    width: 81px;
+    height: 29px;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.57;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  
+  .KCal_item {
+    width: 81px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f06f14;
+  }
+
+.meta_position{
+    margin-top: 30px !important;
+    margin-left: 48px !important;
+}
+
+.bar {
+    width: 37.3px;
+    height: 6.2px;
+    border-radius: 3px;
+    
+  }
+.white {
+    background-color: #dedede;
+}
+.blue {
+    background-color: #4a90e2;
+}
+
+.blue_text {
+    color: #4a90e2;
+}
+.red {
+    background-color: #f03914;
+}
+.red_text {
+    color: #f03914;
+}
+.yellow {
+    background-color: #ffb900;
+}
+.yellow_text {
+    color: #ffb900;
+}
+
+.item_macros {
+    width: 81px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+  }
+
+  .Stroke-1 {
+    width: 11.2px;
+    height: 9.7px;
+  }
+  .row_inner:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+  .columninner {
+    float: left;
+    width: 33.33%;
+  }
+  .macros {
+    margin-top: 40px !important;
+    margin-left: 80px !important;
+  }
+
+/* .red_position {
+ margin-left: 10px !important;
+}
+.yellow_position {
+    margin-left: 10px !important;
+} */
+
+.bar_margin{
+    margin-top: 5.2px !important;
+}
+.item_margin{
+    margin-top: 17px !important;
+}
